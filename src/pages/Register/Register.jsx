@@ -4,6 +4,7 @@ import { registerBg } from '../../assets'
 import Input from '../../components/atoms/input/Input'
 import Button from '../../components/atoms/button/Button'
 import Gap from '../../components/atoms/gap/Gap'
+import Link from '../../components/atoms/link/Link'
 
 const Register = () => {
   return (
@@ -20,6 +21,8 @@ const Register = () => {
         <Input label={'Password'} placholder={'Password'} type="password" />
         <Gap height={20} />
         <Button title={'register'} />
+        <Gap height={60} />
+        <Link content={'Do you have an account? Login'} />
       </div>
     </div>
   )
